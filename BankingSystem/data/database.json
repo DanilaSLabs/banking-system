@@ -1,0 +1,70 @@
+{
+    "customers": {
+        "0000000000": {
+            "accounts": [
+                {
+                    "accId": 288516,
+                    "balance": 115000.0,
+                    "type": "Checking"
+                },
+                {
+                    "accId": 821314,
+                    "balance": 45036.98630136986,
+                    "lastSavedDate": "2025-12-16",
+                    "savingsRate": 0.15,
+                    "type": "Savings"
+                }
+            ],
+            "age": 18,
+            "email": "test0@gmail.com",
+            "firstName": "Test0",
+            "lastName": "Test0",
+            "name": "Test0 Test0",
+            "phone": "+357 00 000000",
+            "secretWord": "0"
+        },
+        "1111111111": {
+            "accounts": [
+                {
+                    "accId": 584959,
+                    "balance": 20000.0,
+                    "type": "Checking"
+                },
+                {
+                    "accId": 167345,
+                    "balance": 0.0,
+                    "lastSavedDate": "2025-12-14",
+                    "savingsRate": 0.15,
+                    "type": "Savings"
+                },
+                {
+                    "accId": 651871,
+                    "balance": 0.0,
+                    "currency": "USD",
+                    "type": "FX"
+                }
+            ],
+            "age": 18,
+            "email": "test1@gmail.com",
+            "firstName": "test1",
+            "lastName": "test1",
+            "name": "test1 test1",
+            "phone": "+357 11 111111",
+            "secretWord": "1"
+        }
+    },
+    "transfers": [
+        {
+            "amount": 20000.0,
+            "error": "",
+            "fromAccId": 288516,
+            "fromCustomerId": "0000000000",
+            "mode": "by_name",
+            "status": "ok",
+            "target": "test1 test1",
+            "toAccId": 584959,
+            "toCustomerId": "1111111111",
+            "ts": 1765711662067
+        }
+    ]
+}

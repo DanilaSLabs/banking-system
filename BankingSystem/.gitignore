@@ -1,0 +1,63 @@
+############################
+# macOS system garbage
+############################
+.DS_Store
+**/.DS_Store
+__MACOSX/
+
+############################
+# Nested git repos (archive junk)
+############################
+BankingSystem/.git/
+
+############################
+# Backup files
+############################
+*.bak
+
+############################
+# Xcode user-specific (НЕ коммитим)
+############################
+*.xcuserstate
+**/xcuserdata/
+**/xcuserdatad/
+**/Bookmarks/
+
+############################
+# Xcode build data
+############################
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+############################
+# Qt / QML temporary
+############################
+*.qmlc
+*.jsc
+*.db
+
+############################
+# CMake / build folders (если появятся)
+############################
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+############################
+# Compiled C++ files
+############################
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+
+############################
+# Specific binary you mentioned
+############################
+BankingSystem/BankingSystem/Libs/libglfw.3.dylib

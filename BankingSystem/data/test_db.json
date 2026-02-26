@@ -1,0 +1,30 @@
+{
+    "66666666": {
+        "accounts": [
+            {
+                "accId": 337709,
+                "balance": 110.0,
+                "type": "Checking"
+            }
+        ],
+        "age": 29,
+        "email": "f@e",
+        "name": "From",
+        "secretWord": "s"
+    },
+    "77777777": {
+        "accounts": [
+            {
+                "accId": 164440,
+                "balance": 45.0,
+                "lastSavedDate": "",
+                "savingsRate": 0.0,
+                "type": "Savings"
+            }
+        ],
+        "age": 30,
+        "email": "t@e",
+        "name": "To",
+        "secretWord": "s"
+    }
+}
